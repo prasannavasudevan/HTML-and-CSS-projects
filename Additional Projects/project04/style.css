@@ -1,0 +1,117 @@
+
+body{
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family:sans-serif;
+    margin-bottom: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+nav .nav-items{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.brand-image{
+    flex: 1;
+    margin: auto;
+}
+
+.brand-logo{
+    display: block;
+}
+
+.brand-logo img{
+    width: 100px;
+}
+
+.google-play-img{
+    width: 250px;
+}
+
+.phone-img{
+    width: 480px;
+    height: -webkit-fill-available;
+}
+
+.nav-button{
+    border: none;
+    color: #e03b8b;
+    padding: 5px 40px;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.col{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    min-height: 100%;
+    align-items: flex-end;
+}
+
+.col-1{
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ color: #fff;
+}
+
+.col-1 p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.col-1 h1{
+    font-size: 75px;
+    margin-left: 35px;
+}
+
+.col-1 img{
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1230px) {
+    nav .nav-items{
+        display: none;
+    }
+    nav .nav-menu-item{
+        display: block;
+        margin: auto;
+    }
+    nav .nav-menu-item i{
+        color: #fff;
+        font-size: 30px;
+    }    
+}
+
+@media screen and (max-width:400px) {
+    .phone-img{
+        display: none;
+    } 
+}
