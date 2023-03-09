@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald:wght@200;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.speak{
+    width: 200px; height: 160px;
+    display: block;
+    margin: 30px auto;
+}
+
+:root{
+    --yellow: #ffbb30;
+    --black: #242424;
+    --grey: #818181;
+}
+
+body{
+    background-color: var(--yellow);
+    height: 100%;
+}
+
+.banner{
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    display: block;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 90px;
+}
+
+p{
+    text-align: center;
+    color: var(--grey);
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 200px;
+    padding-top: 10px;
+    font-family: oswald;
+}
