@@ -1,0 +1,32 @@
+body{
+    background-color: #1f1f1f;
+}
+header {
+    height: 80vh;
+    background-image: url(animated.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family: 'roboto', sans-serif;
+    clip-path: polygon(100% 0, 100% 79%, 86% 90%, 0 67%, 0 0);
+    margin-top: 0%;
+}
+
+header h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+header p{
+    color: rgb(0, 0, 0);
+    padding-left: 12%;
+}
+
+main h2{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'roboto', sans-serif;
+    margin-top: -100px;
+    padding-left: 20px;
+}
