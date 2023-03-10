@@ -1,0 +1,113 @@
+body{
+ background-color: #d0cfd0;  
+ font-family: 'roboto', sans-serif; 
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 100%;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+      flex-direction: column;
+}
+
+.form{
+    width: 100%;
+}
+
+.form-section{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 75%;
+}
+
+.img-phone{
+    width: 400px;
+    margin-top: 10%;
+}
+
+
+.form-section h1{
+      font-size: 40px;
+      margin: 20px 0;
+      color: #343333;
+      text-transform: capitalize;
+}
+
+input{
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #a1a1a1;
+    width: 100%;
+    margin: 0px 6px 10px 6px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #f59e2e;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+         background-color: #1f1f1f;
+}
+
+.btn-facebook{
+    background-color: #354c8d;
+}
+
+.btn-twitter{
+    background-color: #009fe9;
+}
+
+@media screen and (max-width: 600px) {
+    .form-section{
+        padding: 20px 30px;
+    }
+    .img-phone{
+        display: none;
+    }
+    .row{
+        flex-direction: column;
+    }
+    main{
+        grid-template-columns: 1fr;
+    }
+    .btn{
+       margin-left: 30px;
+    }
+    .divider{
+        margin-left: 50px;
+    }
+    .btn-facebook{
+        margin-left: 50px;         
+    }
+    .btn-twitter{
+       margin-left: 50px;
+    }
+}
